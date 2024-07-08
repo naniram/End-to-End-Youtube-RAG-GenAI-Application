@@ -1,5 +1,5 @@
 # End-to-End-Youtube-RAG-GenAI-Application
-End to end youtube RAG application
+End to end youtube RAG application using all the free tools: Langchain, GooglePalm, GooglePalmEmbeddings, FAISS, Streamlit 
 
 # YouTubeRAG: AI-Powered Video Content Exploration
 
@@ -27,3 +27,9 @@ YouTubeRAG is an intelligent application that leverages AI to provide insightful
 - **YouTube Transcript API**: For extracting video transcripts.
 - **FAISS**: For efficient similarity search and information retrieval.
 - **Google PaLM Embeddings**: For creating text embeddings.
+
+## How to use  
+from terminal type: ' streamlit run app.py '
+
+## Error  
+In case if you're facing error: ' NotImplementedError: Need to determine which default deprecation schedule to use. within ?? minor releases ' , we can just ignore it and press 'Process Video' again so that we won't get that error message twice or the Langchain update may helpp to solve this
