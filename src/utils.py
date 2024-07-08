@@ -4,8 +4,6 @@ from langchain.embeddings import GooglePalmEmbeddings
 from langchain.llms import GooglePalm
 from langchain.vectorstores import FAISS
 from youtube_transcript_api import YouTubeTranscriptApi
-from langchain.chains import ConversationalRetrievalChain
-from langchain.memory import ConversationBufferMemory
 from langchain.chains import RetrievalQA
 from dotenv import load_dotenv
 
