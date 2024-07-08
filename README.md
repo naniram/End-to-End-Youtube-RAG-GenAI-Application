@@ -29,7 +29,7 @@ YouTubeRAG is an intelligent application that leverages AI to provide insightful
 - **Google PaLM Embeddings**: For creating text embeddings.
 
 ## How to use  
-from terminal type: ' streamlit run app.py '
+first run 'pip install -r requirements.txt' to install all the dependencies then get GoogleAPI key and store it in .env file then from terminal type: ' streamlit run app.py '
 
 ## Error  
 In case if you're facing error: ' NotImplementedError: Need to determine which default deprecation schedule to use. within ?? minor releases ' , we can just ignore it and press 'Process Video' again so that we won't get that error message twice or the Langchain update may helpp to solve this
